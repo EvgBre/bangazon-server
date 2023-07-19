@@ -1,0 +1,44 @@
+[
+    {
+      "model": "bangazonapi.category",
+      "pk": 1,
+      "fields": {
+        "label": "Microphone"
+      }
+    },
+    {
+      "model": "bangazonapi.category",
+      "pk": 2,
+      "fields": {
+        "label": "Guitar"
+      }
+    },
+    {
+      "model": "bangazonapi.category",
+      "pk": 3,
+      "fields": {
+        "label": "Bass"
+      }
+    },
+    {
+      "model": "bangazonapi.category",
+      "pk": 4,
+      "fields": {
+        "label": "Percussion"
+      }
+    },
+    {
+      "model": "bangazonapi.category",
+      "pk": 5,
+      "fields": {
+        "label": "Piano"
+      }
+    },
+    {
+      "model": "bangazonapi.category",
+      "pk": 6,
+      "fields": {
+        "label": "Production/Audio"
+      }
+    }
+  ]

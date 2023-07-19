@@ -1,0 +1,23 @@
+[
+    {
+      "model": "bangazonapi.paymenttype",
+      "pk": 1,
+      "fields": {
+        "label": "Debit/Credit Card"
+      }
+    },
+    {
+      "model": "bangazonapi.paymenttype",
+      "pk": 2,
+      "fields": {
+        "label": "Apple Pay"
+      }
+    },
+    {
+      "model": "bangazonapi.paymenttype",
+      "pk": 3,
+      "fields": {
+        "label": "Google Pay"
+      }
+    }
+  ]

@@ -1,0 +1,13 @@
+[
+    {
+      "model": "bangazonapi.order",
+      "pk": 1, 
+      "fields": {
+        "customer_id": 1,
+        "date_placed": "2023-07-10",
+        "total": 947.49,
+        "payment_type": 1,
+        "is_completed": true
+      }
+    }
+  ]
