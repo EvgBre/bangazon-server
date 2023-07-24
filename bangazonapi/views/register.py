@@ -37,8 +37,6 @@ def check_user(request):
         'email': user.email,
         'username': user.username,
         'profile_image_url': user.profile_image_url,
-        'registered_on': user.registered_on,
-        'is_active': user.is_active
       }
       return Response(data)
     else: 
@@ -62,8 +60,6 @@ def register_user(request):
     email = request.data['email'],
     username = request.data['username'],
     profile_image_url = request.data['profileImageUrl'],
-    registered_on = request.data['registeredOn'],
-    is_active = request.data['isActive'] 
   )
   
   # Return the user info to the client
@@ -75,7 +71,5 @@ def register_user(request):
       'email': user.email,
       'username': user.username,
       'profile_image_url': user.profile_image_url,
-      'registered_on': user.registered_on,
-      'is_active': user.is_active
   }
   return Response(data)
