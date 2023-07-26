@@ -50,11 +50,11 @@ class OrderProductView(ViewSet):
             Response -- JSON serialized order_product instance
         """
         
-        order_id = Order.objects.get(pk=request.data["orderId"])
+        # order_id = Order.objects.get(pk=request.data["orderId"])
         product_id = Product.objects.get(pk=request.data["productId"])
         
         order_product = OrderProduct.objects.create(
-            order_id=order_id,
+            order_id=None,
             product_id=product_id,
             quantity=request.data["quantity"]
         )
